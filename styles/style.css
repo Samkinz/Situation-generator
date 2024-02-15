@@ -63,7 +63,7 @@ body{
   display: flex;
   top: 200px;
   left: 200px;
-  background-image: url(/design/Слои/Big\ joke\ field.png);
+  background-image: url(../design/Слои/Big\ joke\ field.png);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -88,7 +88,7 @@ margin: 55px 60px;
   margin-left: -8px;
 }
 .joke-button{
-  background-image: url(/design/Слои/button\ on.png);
+  background-image: url(../design/Слои/button\ on.png);
   background-size: contain;
   background-repeat: no-repeat; 
 width: 255px;
@@ -98,7 +98,7 @@ height: 100px;
 cursor: pointer;
 }
 .joke-button:active{
-  background-image:  url(/design/Слои/button\ off.png);
+  background-image:  url(../design/Слои/button\ off.png);
   background-size: contain;
   background-repeat: no-repeat; 
 }
@@ -142,7 +142,7 @@ width: 830px;
   width: 255px;
   height: 140px;
 
-  background-image:  url(/design/Слои/button\ on.png);
+  background-image:  url(../design/Слои/button\ on.png);
   background-size: contain;
   background-repeat: no-repeat; 
 }
