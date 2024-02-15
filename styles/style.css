@@ -1,0 +1,152 @@
+/*body, background*/
+p{
+  cursor: default;
+}
+button{
+  background-color: transparent;
+  border-color: transparent;
+
+}
+body{
+  overflow: hidden;
+  background-color: #2f332e;
+  font-family: "Joystix";
+  color: #2f332e;
+  box-sizing: border-box;
+  margin: 0;
+}
+.background__text{
+  position: absolute;
+  z-index: -1;
+  margin: 2px;
+  padding: 2px;
+  color: #cccccc;
+  font-size: 115px;
+  letter-spacing: 0px;
+  line-height: 95px;
+}
+
+/*Основное поле, название*/
+
+.image{
+  position: fixed;
+  z-index: 2;
+  width: 1000px;
+  top: 115px;
+  left: 205px;
+}
+
+.main__title {
+  z-index: 2;
+  display: block;
+  position: relative;
+  width: 100% ;
+  transform: translate(282px, 165px);
+  -webkit-transform: translate(282px, 165px);
+  -moz-transform: translate(282px, 165px);
+  -ms-transform: translate(282px, 165px);
+  -o-transform: translate(282px, 165px);
+}
+.main__title-item {
+  font-size: 57px;
+  margin: 0 auto;
+}
+
+/* Поле вывода шутки, кнопка генерации*/
+
+.joke-area  {
+  width: 850px;
+  height: 200px; 
+  position: relative;
+  margin: -15px 80px;
+  z-index: 2;
+  display: flex;
+  top: 200px;
+  left: 200px;
+  background-image: url(/design/Слои/Big\ joke\ field.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.joke-area__text {
+  text-align: justify;
+margin: 55px 60px;
+  font-size: 23px;
+}
+
+.generate {
+  width: 255px;
+  height: 140px;
+  
+  position: relative;
+  z-index: 4;
+  margin-top: 250px;
+  margin-left: 560px;
+}
+.generate-button{
+  margin-top: -3px;
+  margin-left: -8px;
+}
+.joke-button{
+  background-image: url(/design/Слои/button\ on.png);
+  background-size: contain;
+  background-repeat: no-repeat; 
+width: 255px;
+height: 100px;
+}
+.joke-button:hover {
+cursor: pointer;
+}
+.joke-button:active{
+  background-image:  url(/design/Слои/button\ off.png);
+  background-size: contain;
+  background-repeat: no-repeat; 
+}
+
+/* Кнопка звука, авторы*/
+
+.footer{
+width: 830px;
+  position: absolute;
+  z-index: 4;
+  font-size: 10px;
+ margin-top: -90px;
+ margin-left: 290px;
+}
+.footer-title{
+  padding-top: 20px;
+}
+
+.player{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sound-marker{
+  background-color: transparent;
+  border: none;
+}
+.sound-marker__image{
+  width: 50px;
+  height: 50px;
+  
+}
+.sound-marker__image:hover{
+  cursor: pointer;
+}
+.sound-marker__image:active{
+  padding-top: 5px;
+}
+
+.my-button {
+  width: 255px;
+  height: 140px;
+
+  background-image:  url(/design/Слои/button\ on.png);
+  background-size: contain;
+  background-repeat: no-repeat; 
+}
+
+.my-button:active { 
+  background-image:  url(/design/Слои/button\ off.png);
+}

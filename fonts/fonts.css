@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Joystix" ; 
+  src: url(/fonts/back-to-1982/BACKTO1982.TTF) format(truetype);
+  src: url(/fonts/back-to-1982/Backto1982.woff2) format(woff2),
+  url(/fonts/back-to-1982/Backto1982.woff) format(woff),
+  font-style: normal; 
+  font-weight: 400; 
+  font-weight: regular;
+  }
+
+  
+  
