@@ -2,9 +2,9 @@
  let image = document.getElementById("sound-marker");
  image.addEventListener("click", function(){
     if (image.getAttribute("src") == "/design/Слои/sound off.png"){
-       image.src = "/design/Слои/sound on.png"}
+       image.src = "./design/Слои/sound on.png"}
     else{
-       image.src = "/design/Слои/sound off.png"}
+       image.src = "./design/Слои/sound off.png"}
  });
  
  document.querySelector('#sound-marker').addEventListener('click', function() {
